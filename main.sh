@@ -1,6 +1,6 @@
 echo "
 ================================
-Installing packages
+Installing packages..
 ================================"
 apt update
 pkg install ncurses-utils -y
@@ -13,6 +13,8 @@ cp bash.bashrc $PREFIX/etc
 clear
 echo "
 ======================================
-Now type 'exit' & restart Termux
+Please Reopen Termux to see changes..
 ======================================"
 echo ""
+sleep 2
+exit
