@@ -16,5 +16,3 @@ echo "
 Please Reopen Termux to see changes..
 ======================================"
 echo ""
-sleep 2
-exit
