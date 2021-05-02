@@ -3,7 +3,7 @@ echo "
 Installing packages
 ================================"
 apt update
-pkg install ncurses-utils
+pkg install ncurses-utils -y
 echo "
 ======================
 Initializing...
