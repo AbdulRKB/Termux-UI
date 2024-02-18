@@ -16,4 +16,3 @@ echo "
 Please Reopen Termux to see changes..
 ======================================"
 echo ""
-#CyberTitus.github.io
