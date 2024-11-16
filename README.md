@@ -3,7 +3,7 @@
 Termux-UI is a user interface enhancement for Termux, providing a more visually appealing and user-friendly experience.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AbdulRKB/Termux-UI/refs/heads/main/img/demo.png" alt="Demo" width="800">
+  <img src="https://github.com/AbdulRKB/Termux-UI/blob/main/img/demo.jpg?raw=true" alt="Demo" width="800">
 </p>
 
 
