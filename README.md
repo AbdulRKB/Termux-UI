@@ -1,7 +1,11 @@
 # Termux-UI 💻
 
-
 Termux-UI is a user interface enhancement for Termux, providing a more visually appealing and user-friendly experience.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AbdulRKB/Termux-UI/refs/heads/main/img/demo.png" alt="Demo" width="800">
+</p>
+
 
 ## Features 🚀
 
@@ -11,17 +15,8 @@ Termux-UI is a user interface enhancement for Termux, providing a more visually 
 
 ## Installation & Usage 🛠️
 
-You can easily install **Termux-UI** using the following commands:
+You can easily add **Termux-UI** to your device using the following command:
 
 ```bash
-$ git clone https://github.com/AbdulRKB/Termux-UI.git
-$ cd Termux-UI
-$ chmod +x *
-$ bash main.sh
-```
-
-Alternatively, you can use a single command:
-
-```bash
-pkg install git -y && git clone https://github.com/AbdulRKB/Termux-UI.git && cd Termux-UI && chmod +x * && bash main.sh
+pkg update -y && pkg upgrade -y && pkg install -y wget bash bash-completion coreutils grep findutils util-linux && wget -O ../usr/etc/bash.bashrc https://raw.githubusercontent.com/AbdulRKB/Termux-UI/refs/heads/main/bash.bashrc
 ```
